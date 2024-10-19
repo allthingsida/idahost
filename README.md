@@ -2,6 +2,8 @@
 
 `idahost` is a hack to allow you to embed/host IDA Pro in your own application. It uses reflective process loading to load `idat64.exe` as a DLL, and then uses the IDA Pro API to interact with it. `idahost` requires a helper plugin to be loaded by IDA Pro.
 
+`idahost` is mentioned and used in this video: [Headless programming in IDA Pro](https://youtu.be/Ioql0TLU0zA?t=914).
+
 ## Building
 
 ### Setup the `idahost` binaries
